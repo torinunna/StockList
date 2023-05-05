@@ -13,6 +13,7 @@
 		864FBD432A04B7DD009AA3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864FBD412A04B7DD009AA3F1 /* Main.storyboard */; };
 		864FBD452A04B7DE009AA3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864FBD442A04B7DE009AA3F1 /* Assets.xcassets */; };
 		864FBD482A04B7DE009AA3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864FBD462A04B7DE009AA3F1 /* LaunchScreen.storyboard */; };
+		864FBD502A04B8A8009AA3F1 /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864FBD4F2A04B8A8009AA3F1 /* StockModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		864FBD442A04B7DE009AA3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864FBD472A04B7DE009AA3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		864FBD492A04B7DE009AA3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864FBD4F2A04B8A8009AA3F1 /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				864FBD3B2A04B7DD009AA3F1 /* AppDelegate.swift */,
 				864FBD3D2A04B7DD009AA3F1 /* SceneDelegate.swift */,
+				864FBD4F2A04B8A8009AA3F1 /* StockModel.swift */,
 				864FBD3F2A04B7DD009AA3F1 /* ViewController.swift */,
 				864FBD412A04B7DD009AA3F1 /* Main.storyboard */,
 				864FBD442A04B7DE009AA3F1 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864FBD502A04B8A8009AA3F1 /* StockModel.swift in Sources */,
 				864FBD402A04B7DD009AA3F1 /* ViewController.swift in Sources */,
 				864FBD3C2A04B7DD009AA3F1 /* AppDelegate.swift in Sources */,
 				864FBD3E2A04B7DD009AA3F1 /* SceneDelegate.swift in Sources */,
