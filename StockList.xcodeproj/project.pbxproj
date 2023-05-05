@@ -13,6 +13,7 @@
 		864FBD452A04B7DE009AA3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864FBD442A04B7DE009AA3F1 /* Assets.xcassets */; };
 		864FBD482A04B7DE009AA3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864FBD462A04B7DE009AA3F1 /* LaunchScreen.storyboard */; };
 		864FBD502A04B8A8009AA3F1 /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864FBD4F2A04B8A8009AA3F1 /* StockModel.swift */; };
+		864FBD522A04BA0B009AA3F1 /* StockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864FBD512A04BA0B009AA3F1 /* StockListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		864FBD472A04B7DE009AA3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		864FBD492A04B7DE009AA3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864FBD4F2A04B8A8009AA3F1 /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		864FBD512A04BA0B009AA3F1 /* StockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				864FBD3D2A04B7DD009AA3F1 /* SceneDelegate.swift */,
 				864FBD4F2A04B8A8009AA3F1 /* StockModel.swift */,
 				864FBD412A04B7DD009AA3F1 /* Main.storyboard */,
+				864FBD512A04BA0B009AA3F1 /* StockListViewController.swift */,
 				864FBD442A04B7DE009AA3F1 /* Assets.xcassets */,
 				864FBD462A04B7DE009AA3F1 /* LaunchScreen.storyboard */,
 				864FBD492A04B7DE009AA3F1 /* Info.plist */,
@@ -141,6 +144,7 @@
 				864FBD502A04B8A8009AA3F1 /* StockModel.swift in Sources */,
 				864FBD3C2A04B7DD009AA3F1 /* AppDelegate.swift in Sources */,
 				864FBD3E2A04B7DD009AA3F1 /* SceneDelegate.swift in Sources */,
+				864FBD522A04BA0B009AA3F1 /* StockListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
