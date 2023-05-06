@@ -45,7 +45,6 @@
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ltx-82-Ry0">
                                                     <rect key="frame" x="58" y="8" width="70" height="70"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="70" id="0jv-98-Nco"/>
                                                         <constraint firstAttribute="height" constant="70" id="Buv-a4-DE8"/>
@@ -96,7 +95,7 @@
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="86"/>
                                         <connections>
-                                            <outlet property="companyIconImage" destination="Ltx-82-Ry0" id="tnA-Ug-uip"/>
+                                            <outlet property="companyLogoImage" destination="Ltx-82-Ry0" id="xWw-wr-iBJ"/>
                                             <outlet property="companyNameLabel" destination="qhm-fT-Ztd" id="4FL-xr-MAK"/>
                                             <outlet property="percentageChangeLabel" destination="fcC-JP-ht2" id="CfB-Lf-24i"/>
                                             <outlet property="priceLabel" destination="kfP-7t-a8w" id="Lt9-e7-7ZY"/>
