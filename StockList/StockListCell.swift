@@ -22,6 +22,7 @@ class StockListCell: UICollectionViewCell {
         companyLogoImage.image = UIImage(named: stock.companyLogo)
         companyNameLabel.text = stock.name
         priceLabel.text = "\(convertToCurrencyFormat(price: stock.price))원"
+        percentageChangeLabel.textColor = stock.percentage > 0 ? UIColor.systemRed : UIColor.systemBlue
         percentageChangeLabel.text = "\(stock.percentage)%"
     }
     
