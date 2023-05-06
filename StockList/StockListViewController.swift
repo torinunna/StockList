@@ -9,6 +9,8 @@ import UIKit
 
 class StockListViewController: UIViewController {
 
+    let stockList: [StockModel] = StockModel.list
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -22,11 +24,13 @@ class StockListViewController: UIViewController {
 
 extension StockListViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return stockList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: StockListCell.identifier, for: indexPath) as? StockListCell else { return UICollectionViewCell() }
+        let stock = stockList[indexPath.item]
+        cell.configure(stock)
         return cell
     }
     
